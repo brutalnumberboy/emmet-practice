@@ -1,0 +1,24 @@
+@import "scrabble.css";
+
+table.scrabble{
+    counter-reset: top-number bottom-number lcolumn-number rcolumn-number;
+}
+table.scrabble > thead > tr > th:nth-child(n + 2):before{
+    content: counter(top-number);
+    counter-increment: top-number;
+}
+
+table.scrabble > tfoot > tr > th:nth-child(n + 2):before{
+    content: counter(bottom-number);
+    counter-increment: bottom-number;
+}
+
+table.scrabble > tbody > tr > th:first-child::before{
+    content: counter(lcolumn-number, upper-alpha);
+    counter-increment: lcolumn-number;
+}
+
+table.scrabble > tbody > tr > th:last-child::before{
+    content: counter(rcolumn-number, upper-alpha);
+    counter-increment: rcolumn-number;
+}
