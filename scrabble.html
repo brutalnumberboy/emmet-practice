@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="scrabble.css">
+    <title>Scrabble</title>
+</head>
+<body>
+    <!--Emmet abbreviation: table.scrabble>thead>tr>th+th{$@}*15+th^^tbody>tr*15>th+td*15+th^^tfoot>th+th{$@}*15+th -->
+    <table class="scrabble">
+        <thead>
+            <tr>
+                <th></th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+                <th>14</th>
+                <th>15</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>A</th>
+                <td class="triple-word">triple<br>word</td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-word">triple<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td class="triple-word">triple<br>word</td>
+                <th>A</th>
+            </tr>
+            <tr>
+                <th>B</th>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <th>B</th>
+            </tr>
+            <tr>
+                <th>C</th>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <th>C</th>
+            </tr>
+            <tr>
+                <th>D</th>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <th>D</th>
+            </tr>
+            <tr>
+                <th>E</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th>E</th>
+            </tr>
+            <tr>
+                <th>F</th>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <th>F</th>
+            </tr>
+            <tr>
+                <th>G</th>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <th>G</th>
+            </tr>
+            <tr>
+                <th>H</th>
+                <td class="triple-word">triple<br>word</td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-word star">&#9733;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td class="triple-word">triple<br>word</td>
+                <th>H</th>
+            </tr>
+            <tr>
+                <th>I</th>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <th>I</th>
+            </tr>
+            <tr>
+                <th>J</th>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <th>J</th>
+            </tr>
+            <tr>
+                <th>K</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th>K</th>
+            </tr>
+            <tr>
+                <th>L</th>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <th>L</th>
+            </tr>
+            <tr>
+                <th>M</th>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <th>M</th>
+            </tr>
+            <tr>
+                <th>N</th>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-letter">triple<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-word">double<br>word</td>
+                <td></td>
+                <th>N</th>
+            </tr>
+            <tr>
+                <th>O</th>
+                <td class="triple-word">triple<br>word</td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="triple-word">triple<br>word</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="double-letter">double<br>letter</td>
+                <td></td>
+                <td></td>
+                <td class="triple-word">triple<br>word</td>
+                <th>O</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+            <th>14</th>
+            <th>15</th>
+            <th></th>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+table.scrabble{
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+table.scrabble td{
+    border: black solid;
+    font-size: x-small;
+    text-align: center;
+    width: 3em;
+    height: 3em;
+    background-color: green;
+}
+
+table.scrabble > tbody > tr > td.triple-word{
+    background-color: red;
+}
+
+table.scrabble > tbody > tr > td.double-word{
+    background-color: pink;
+}
+
+table.scrabble > tbody > tr >td.double-letter{
+    background-color: skyblue;
+}
+
+table.scrabble > tbody > tr> td.triple-letter{
+    background-color: blue;
+}
